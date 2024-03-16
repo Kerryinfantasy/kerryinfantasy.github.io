@@ -35,11 +35,13 @@
   a {
     color: #fff; /* 设置链接颜色为白色 */
   }
-  .center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  .image-container {
+    text-align: center;
+  }
+  .image-container img {
+    max-width: 30%; /* 图片最大宽度为页面宽度的 30% */
+    max-height: 40%; /* 图片最大高度为页面高度的 40% */
+    display: inline-block; /* 使得 margin 属性生效 */
   }
   </style>
 </head>
@@ -58,7 +60,7 @@
     <p>▸ Qualification: ACCA(8/13), CFA-Level 1(completed), PCEP Certificate(94%) -Python Institute</p>
     <p>▸ Skills: Microsoft Office (Excel), SPSS, STATA, Python, Machine Learning Techniques</p>
     <br>
-    <div class="center">
+    <div class="image-container">
       <img src="image1/41.jpg" alt="Example Image">
     </div>
     <h2>WORK EXPERIENCE</h2>
