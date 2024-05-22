@@ -6,7 +6,7 @@
     <title>Guannan Hao's Personal Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -18,11 +18,11 @@
             overflow: hidden;
         }
         header {
-            background: #333;
+            background: #222;
             color: #fff;
             padding-top: 30px;
             min-height: 70px;
-            border-bottom: #0779e4 3px solid;
+            border-bottom: #444 3px solid;
         }
         header a {
             color: #fff;
@@ -39,16 +39,41 @@
             display: inline;
             padding: 0 20px 0 20px;
         }
+        header h1 {
+            float: left;
+            margin: 0;
+        }
         .main {
             padding: 20px;
             background: #fff;
             margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .main h2 {
+            color: #444;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .main ul {
+            padding-left: 20px;
+            list-style: disc;
         }
         footer {
-            background: #333;
+            background: #222;
             color: #fff;
             text-align: center;
             padding: 10px 0;
+            margin-top: 20px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            line-height: 1.8;
         }
     </style>
 </head>
@@ -127,7 +152,7 @@
             <h3>CRAFiC Workshop on Risk and Reward: Enhancing Governance in Finance and Banking, SUMS (May 2024)</h3>
             <p>Coordinated with four advanced academic sessions, gained insights into empirical research methods on corporate governance.</p>
         </section>
-        <section id="contact" class="main" style="background: #fff;">
+        <section id="contact" class="main contact-info">
             <h2>Contact</h2>
             <p>Email: <a href="mailto:ghao3@sheffield.ac.uk">ghao3@sheffield.ac.uk</a></p>
             <p>Phone: (44) 07536 479220</p>
@@ -138,5 +163,4 @@
         <p>&copy; 2024 Guannan Hao. All rights reserved.</p>
     </footer>
 </body>
-</html>
 </html>
