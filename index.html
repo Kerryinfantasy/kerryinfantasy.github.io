@@ -1,117 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kerry's Finance</title>
-  <style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-  }
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  h1 {
-    font-size: 36px;
-  }
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #333;
-  }
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-  }
-  a {
-    color: #fff; /* 设置链接颜色为白色 */
-  }
-  .image-container {
-    text-align: center;
-  }
-  .image-container img {
-    max-width: 20%; /* 图片最大宽度为页面宽度的 20% */
-    max-height: 20%; /* 图片最大高度为页面高度的 20% */
-    display: inline-block; /* 使得 margin 属性生效 */
-  }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guannan Hao's Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to Kerry's Finance</h1>
-    <h3>E-mail: guannan.work@gmail.com</h3>
-    <h3>LinkedIn: <a href="https://www.linkedin.com/in/guannan-hao-80b49a2a8" target="_blank">https://www.linkedin.com/in/guannan-hao-80b49a2a8</a></h3>
-  </header>
-  <main>
-    <h2>  EDUCATION BACKGROUND</h2>
-    <h3>  University of Sheffield, Sheffield, United Kingdom</h3>
-    <h4>Master of Science, major in Accounting, Governance and Financial Management 09.2023-Present</h4>
-    <p>▸ Weighted Average Score: 87.6/100</p>
-    <p>▸ Main Courses: Quantitative Methods(89%), Corporate Finance(93%), Management Accounting(98%), Financial Accounting and Financial Statement Analysis(97%)</p>
-    <p>▸ Qualification: ACCA(8/13), CFA-Level 1(completed), PCEP Certificate(94%) -Python Institute</p>
-    <p>▸ Skills: Microsoft Office (Excel), SPSS, STATA, Python, Machine Learning Techniques</p>
-    <br>
-    <div class="image-container">
-      <img src="image1/6.jpg" alt="Example Image">
+    <header>
+        <div class="container">
+            <h1>Guannan Hao</h1>
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <section id="about" class="main">
+            <h2>About Me</h2>
+            <p>Welcome to my personal webpage! I am Guannan Hao, currently pursuing a Master's degree in Accounting, Governance, and Financial Management at the University of Sheffield. I have a strong academic background with extensive research and professional experience in finance, accounting, and data analysis.</p>
+        </section>
+        <section id="education" class="main">
+            <h2>Education</h2>
+            <h3>University of Sheffield, UK</h3>
+            <p>Master of Science in Accounting, Governance, and Financial Management (Sep 2023 - Present)</p>
+            <ul>
+                <li>Average Score: 88%</li>
+                <li>Major Courses: Quantitative Methods for Finance and Accounting (89%), Corporate Finance (93%), Financial Accounting and Financial Statement Analysis (97%), Management Accounting (98%)</li>
+            </ul>
+            <h3>Nanjing Normal University, China</h3>
+            <p>Bachelor of Management in Accounting (Aug 2017 - Jul 2021)</p>
+            <ul>
+                <li>Average Score: 83%</li>
+                <li>Major Courses: Western Financial Accounting (94%), Financial Accounting (89%), Advanced Financial Management (90%), Financial Management (91%), Finance (90%), Statistics (89%), Econometrics (80%)</li>
+            </ul>
+        </section>
+        <section id="projects" class="main">
+            <h2>Projects & Research</h2>
+            <h3>Research Assistant, Variation in the Nature of Innovation (Apr 2024 - May 2024)</h3>
+            <p>Worked on processing over 50 million patent records using Python and Jupyter Notebook, establishing criteria for patent innovation, and performing regression analysis.</p>
+            <h3>Research Assistant, Female Empowerment and Borrower Discouragement (Apr 2024 - May 2024)</h3>
+            <p>Conducted literature review and data analysis using STATA and Python, contributed to hypothesis refinement and report drafting.</p>
+            <h3>Competition Experience</h3>
+            <p>Participated in Kaggle's Home Credit – Credit Risk Model Stability competition, achieving Bronze Grading through feature engineering, model training, and integration.</p>
+        </section>
+            <ul>
+        <section id="contact" class="main">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:ghao3@sheffield.ac.uk">ghao3@sheffield.ac.uk</a></p>
+            <p>Phone: (44) 07536 479220</p>
+            <p>GitHub: <a href="https://github.com/Kerryinfantasy/kerryinfantasy.github.io" target="_blank">Kerryinfantasy</a></p>
+        </section>
     </div>
-    <h2>WORK EXPERIENCE</h2>
-    <h3>Changjiang Securities, Shanghai, China</h3>
-    <h4>Macroscopic Industry Research Intern of Military Project 06.2023-08.2023</h4>
-    <p>▸ Conducted the Indication of Interest Reports for 5 IPO companies based on fundamental analysis,</p>
-    <p>▸ Carried out the industry research of more than 10 categories of products, from market to individual corporate</p>
-    <p>▸ Independently searched and sorted data drafts from CSIS, SRPRI, World Bank, Wind etc.</p>
-    <br>
-    <h3>Moore Global Consulting (Shanghai) Co Ltd., Shanghai, China</h3>
-    <h4>Financial and Taxation Advisory Associate 10.2022-06.2023</h4>
-    <p>▸ Jointly responsible for financial and tax solutions following IFRS for 8 foreign-capital enterprises;</p>
-    <p>▸ Provided periodic corporate tax, supply chain reports, AR aging tests, TB and financial analysis reports;</p>
-    <p>▸ Actively participated in the Payroll internal audit project, and conducted 40-page remuneration report for Shanghai, Hangzhou and Shenzhou branch.</p>
-    <br>
-    <h3>Shanghai Genesis Financial Information Co Ltd., Shanghai, China</h3>
-    <h4>Fund Valuation Analyst Associate 08.2021-10.2022</h4>
-    <p>▸ Calculated the NAV of more than 10-billion-CNY PE&VC;</p>
-    <p>▸ Led the Fund Liquidation for 11 times, issued more than 20 liquidation reports;</p>
-    <p>▸ Assisted in TA, reviewing fund subscription, redemption, dividend and performance compensation;</p>
-    <p>▸ Guided the compliance check, implemented the penetration test for 100 securities;</p>
-    <p>▸ Developed software system tests; optimized the auto-system of risk and information disclosure reports.</p>
-    <br>
-    <h3>ShineWing CPA, Nanjing, China</h3>
-    <h4>Auditor Associate Intern 12.2020-3.2021</h4>
-    <p>▸ Participated in Huitongda Network Co., LTD. (09878.HK), financial statement audit project of 2020;</p>
-    <p>▸ Evaluated the internal control, took important samples to review the purchase and sales circle; </p>
-    <p>▸ Retrieved the receivables audit draft, established aging analysis and the bad debt accrual table；</p>
-    <p>▸ Applied Python to snatch at over 1000 companies’ lawsuit data; reviewed the liability category.</p>
-    <br>
-    <div class="image-container">
-      <img src="image1/7.jpg" alt="Example Image">
-    </div>
-    <h2>COMPETITION EXPERIENCE</h2>
-    <h3>Corporate Social Responsibility Innovation Competition, KMPG</h3>
-    <h4>Project: “Gender equality in the job market: The Feminist Development”</h4>
-    <h4>Team Member, Third Prize, 12.2018</h4>
-    <p>▸ Navigated information of feminist and CSR from 40 worldwide companies and compiled scorecards;</p>
-    <p>▸ Elaborated model of 5 dimensions by KLD: Employee, Environment, Customer, Supplier, Government;</p>
-    <p>▸ Estimated market value by EPS and Tobin Q;</p>
-    <p>▸ Analyzed the relationship between CSR, EPS and Tobin Q by SPSS.</p>
-    <br>
-    <h2>ACADEMIC EXPERIENCE</h2>
-    <h3>Finance and Taxation, Theory, Practice and Case Study</h3>
-    <h4>Tutor’s topic: The Emergence and Development of Public Finance and its Implication</h4>
-    <h4>Research Group Member, 12.2018</h4>
-    <p>▸ Comprehensively analyzed the development of Public Finance from the Keynesian Market Theory;</p>
-    <p>▸ Summarized the major events of Finance and Taxation in world history and illustrated their functions served in different leading economies.</p>
-  </main>
-  <footer>
-    &copy; Est in 2024. My 2nd Year of Postgraduate
-  </footer>
+    <footer>
+        <p>&copy; 2024 Guannan Hao. All rights reserved.</p>
+    </footer>
 </body>
 </html>
